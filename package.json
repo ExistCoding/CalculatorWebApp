@@ -1,0 +1,26 @@
+{
+  "name": "calculatorwebapp",
+  "version": "1.0.0",
+  "description": "Practice Web Application containing a calculator using vanilla html, SASS and vanilla JS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExistCoding/CalculatorWebApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ExistCoding/CalculatorWebApp/issues"
+  },
+  "homepage": "https://github.com/ExistCoding/CalculatorWebApp#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "sass": "^1.57.1"
+  }
+}
