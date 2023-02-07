@@ -2,7 +2,6 @@
   "name": "calculatorwebapp",
   "version": "1.0.0",
   "description": "Practice Web Application containing a calculator using vanilla html, SASS and vanilla JS",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
@@ -21,7 +20,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
     "parcel": "^2.8.3",
-    "sass": "^1.57.1",
+    "sass": "^1.58.0",
     "typescript": "^4.9.5"
   }
 }

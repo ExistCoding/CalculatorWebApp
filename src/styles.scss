@@ -2,16 +2,29 @@
     display: block;
     box-sizing: border-box;
     margin: 0;
+    border: none;
     padding: 0;
 }
 
+button,
+fieldset,
+input,
+legend,
+select,
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+}
 
 
-.atom_height-12vh {
+
+.atom_hei-12vh {
     height: 12vh;
 }
 
-.atom_height-88vh {
+.atom_hei-88vh {
     height: 88vh;
 }
 
@@ -20,11 +33,11 @@
 }
 
 
-.atom_hei-100per {
+.atom_hei-100pc {
     height: 100%;
 }
 
-.atom_wid-100per {
+.atom_wid-100pc {
     width: 100%;
 }
 
