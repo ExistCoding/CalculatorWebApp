@@ -1,7 +1,47 @@
-$red: red;
-$darkblue: midnightblue;
-
-* {
-    background-color: $darkblue;
-    color: $red;
+*:not(head) {
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+
+
+.atom_height-12vh {
+    height: 12vh;
+}
+
+.atom_height-88vh {
+    height: 88vh;
+}
+
+.atom_gridTempCol-12vh_1fr_12vh {
+    grid-template-columns: 12vh 1fr 12vh;
+}
+
+
+.atom_hei-100per {
+    height: 100%;
+}
+
+.atom_wid-100per {
+    width: 100%;
+}
+
+.atom_grid {
+    display:grid
+}
+
+.atom_placeIt-center {
+    place-items: center;
+}
+
+.atom_hei-fitCon {
+    height: fit-content;
+}
+
+.atom_wid-fitCon {
+    width: fit-content;
+}
+
+//.atom_width
