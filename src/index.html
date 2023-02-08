@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>html{visibility:hidden; opacity:0;}</style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.scss">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="icon" href="./ressources/calculatorFav.svg">
 </head>
-<body>
-    <header class="atom_hei-12vh atom_grid atom_gridTempCol-12vh_1fr_12vh atom_placeIt-center">
-        <a href="index.html" class="atom_hei-100pc atom_wid-100pc">
-            <img src="./ressources/calculatorFav.svg" class="atom_hei-100pc atom_wid-100pc">
+<body class="h-screen">
+    <header class="h-1/7 grid grid-cols-[14.2857vh_1fr_14.2857vh] place-items-center">
+        <a href="index.html" class="h-full w-full">
+            <img src="./ressources/calculatorFav.svg" class="h-full w-full">
         </a>
-        <h1>Calculator</h1>
-        <button class="atom_hei-100pc atom_wid-100pc"></button>
+        <h1 class="h-fit w-fit">Calculator</h1>
+        <input type="checkbox" class="appearance-none h-full w-full">
     </header>
-    <main class="atom_hei-88vh">
-        <div>
+    <main class="">
+        <div class="">
 
         </div>
     </main>
@@ -25,5 +26,6 @@
         
     </footer>
     <script type="module" src="index.ts"></script>
+    <style>html{visibility:visible; opacity:1;}</style>
 </body>
 </html>
