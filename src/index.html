@@ -9,43 +9,41 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="icon" href="./ressources/calculatorFav.svg">
 </head>
-<body class="h-screen">
-    <header class="h-1/6 
-                    grid 
-                    grid-cols-[14.2857vh_1fr_14.2857vh] 
-                    place-items-center">
-        <a href="index.html" class="h-full 
-                                    w-full">
-            <img src="./ressources/calculatorFav.svg" class="h-full 
-                                                                w-full">
+<body class="h-screen w-full">
+    <header class="h-1/6 grid grid-cols-[14.2857vh_1fr_14.2857vh] place-items-center">
+        <a href="index.html" class="h-full w-full">
+            <img src="./ressources/calculatorFav.svg" class="h-full w-full">
         </a>
-        <h1 class="h-fit 
-                    w-fit">Calculator</h1>
+        <h1 class="h-fit w-fit">Calculator</h1>
         <div 
-        class="h-full 
-                    w-full 
-                    grid 
-                    place-items-center 
-                    relative">
-            <label class="h-fit 
-                            w-fit">About</label>
-            <input type="checkbox" class="appearance-none 
-                                            h-full 
-                                            w-full 
-                                            bg-transparent 
-                                            absolute 
-                                            checked:bg-red-500">
+        class="h-full w-full grid place-items-center relative">
+            <label class="h-fit w-fit">About</label>
+            <input type="checkbox" class="appearance-none h-full w-full bg-transparent absolute checked:bg-red-500">
         </div>
     </header>
-    <main class="h-5/6 
-                    w-full 
-                    grid 
-                    place-items-center 
-                    bg-red-900">
-        <div class="h-5/6 
-                    w-4/5 
-                    bg-[var(--bg-calc)] 
-                    grid ">
+    <main class="bg-teal-900 h-5/6 w-full grid place-items-center">
+        <div class=" bg-[var(--bg-calc)] h-5/6 w-4/5 rounded-lg grid  grid-rows-[1fr_3fr]">
+            <div class="bg-green-900  h-8 w-8/12 place-self-center grid">
+                <p id="display"  class="font-mono text-green-200 h-fit w-11/12 text-right overflow-clip place-self-center">0</p>
+            </div>
+            <div class="h-full w-full p-4 grid grid-cols-4 grid-rows-4 gap-4">
+                <button id="7" class="calc_btn">7</button>
+                <button id="8" class="calc_btn">8</button>
+                <button id="9" class="calc_btn">9</button>
+                <button id="/" class="calc_btn">/</button>
+                <button id="4" class="calc_btn">4</button>
+                <button id="5" class="calc_btn">5</button>
+                <button id="6" class="calc_btn">6</button>
+                <button id="*" class="calc_btn">*</button>
+                <button id="1" class="calc_btn">1</button>
+                <button id="2" class="calc_btn">2</button>
+                <button id="3" class="calc_btn">3</button>
+                <button id="-" class="calc_btn">-</button>
+                <button id="0" class="calc_btn">0</button>
+                <button id="." class="calc_btn">.</button>
+                <button id="=" class="calc_btn">=</button>
+                <button id="+" class="calc_btn">+</button>
+            </div>
         </div>
     </main>
     <footer>
