@@ -10,20 +10,36 @@
 }
 
 @layer components {
-    .calc_btn {
+
+    .comp_background {
+        background: linear-gradient(315deg, hsla(0, 0%, 0%, 0.8) 15%, 75%, 
+                                            transparent),
+                    url(./ressources/mathCompressed.jpg);
+        background-size: cover;
+        position: relative;
+    }
+
+    .comp_calculator {
+        background-color: darkslategrey;
+        background-image: linear-gradient(315deg, hsla(0, 0%, 0%, 0.8) 10%, 60%, 
+        transparent);
+        box-shadow: -2px 2px hsla(0, 0%, 0%, 0.7);
+    }
+
+    .comp_button {
         background-color: darkred;
         border-radius: 0.5rem;
         font-family: serif;
         font-weight: bold;
         color: white;
         border-bottom: 2px solid black;
-        border-left: 2px solid black;
+        border-right: 2px solid black;
     }
 
-    .calc_btn:active {
+    .comp_button:active {
         border-bottom: none;
-        border-left: none;
-        border-right: 2px solid black;
-        border-top: 2px solid black;
+        border-right: none;
+        border-left: 1.5px solid black;
+        border-top: 1.5px solid black;  
     }
 }
