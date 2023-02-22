@@ -26,30 +26,16 @@
             <div class="bg-green-900 rounded-md border-black border-t-[1.5px] border-l-[1.5px] h-8 w-8/12 place-self-center grid">
                 <p id="display"  class="font-mono text-green-200 h-fit w-11/12 text-right overflow-clip place-self-center">0</p>
             </div>
-            <div class="h-full w-full p-[5vmin] grid grid-cols-4 grid-rows-4 gap-[5vmin]">
-                <button id="7" class="comp_button">7</button>
-                <button id="8" class="comp_button">8</button>
-                <button id="9" class="comp_button">9</button>
-                <button id="/" class="comp_button">/</button>
-                <button id="4" class="comp_button">4</button>
-                <button id="5" class="comp_button">5</button>
-                <button id="6" class="comp_button">6</button>
-                <button id="*" class="comp_button">*</button>
-                <button id="1" class="comp_button">1</button>
-                <button id="2" class="comp_button">2</button>
-                <button id="3" class="comp_button">3</button>
-                <button id="-" class="comp_button">-</button>
-                <button id="0" class="comp_button">0</button>
-                <button id="." class="comp_button">.</button>
-                <button id="=" class="comp_button">=</button>
-                <button id="+" class="comp_button">+</button>
-            </div>
+            <div id="button-hook"></div>
         </div>
     </main>
     <footer>
         
     </footer>
     <script type="module" src="index.ts"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script type="module" src="button.js"></script>
     <style>html{visibility:visible; opacity:1;}</style>
 </body>
 </html>
