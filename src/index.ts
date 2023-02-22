@@ -34,6 +34,7 @@ function calculatorInput(button: string): void {
   }
 }
 
+
 const buttons:string[] = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ".", "/", "*", "+", "-"];
 
 buttons.forEach(button => {
@@ -46,6 +47,19 @@ buttons.forEach(button => {
   }
 });
 
+document.addEventListener('keydown', (event) => {
+  var name = event.key;
+  var code = event.code;
+  // Alert the key name and key code on keydown
+  buttons.forEach(button => {
+    if (event.key === button) {
+      calculatorInput(button);
+    }
+  });
+}, false);
+
+
+
 function evaluate():void {
   const display = document.getElementById("display");
   if (display) {
@@ -57,3 +71,4 @@ function evaluate():void {
 }
 
 document.getElementById("=")?.addEventListener("click", evaluate);
+
